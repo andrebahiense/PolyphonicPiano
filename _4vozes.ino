@@ -49,14 +49,6 @@ void loop()
   int indice=0;
  for(int i=30;i<54;i++){
   if(digitalRead(i)==HIGH){
-    /*if(indice<3 && botoes[indice]>0){
-      indice++;
-      botoes[indice]=i;
-    }*/
-   /* if(botoes[indice]>0)
-    {
-      indice++;
-    }*/
     if(indice<4){
     botoes[indice]=i;
     indice++;
